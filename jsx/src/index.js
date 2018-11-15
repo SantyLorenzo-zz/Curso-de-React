@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'
 
 // Create a React components
 
-const App = function () {
+const App = () => {
     return (
         <div>
             Hi there!
