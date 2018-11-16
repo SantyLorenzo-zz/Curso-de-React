@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CommentDetail = props => {
-   return (
+  return (
 		<div className='comment'>
 			<a href='/' className='avatar'>
 				<img alt='avatar' src={props.image} />
@@ -16,7 +16,7 @@ const CommentDetail = props => {
 				<div className='text'>{props.message}</div>
 			</div>
 		</div>
-    )
+  )
 }
 
 export default CommentDetail
